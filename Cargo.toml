@@ -4,3 +4,4 @@ version = "0.1.0"
 authors = ["Sarah Connor <sconnor@pivotal.io>", "Glen Rodgers <grodgers@pivotal.io>"]
 
 [dependencies]
+structopt = "0.2"

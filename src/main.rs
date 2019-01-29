@@ -1,3 +1,13 @@
+#[macro_use]
+extern crate structopt;
+
+use structopt::StructOpt;
+
+#[derive(StructOpt, Debug)]
+#[structopt(name = "tube")]
+struct Opt {}
+
 fn main() {
-    println!("Hello, world!");
+    let opt = Opt::from_args();
+    println!("{:?}", opt);
 }
